@@ -4,10 +4,10 @@ from discord.ext import commands
 
 
 settings = {
-'token' : 'OTU4NjA1NzI3NTcwNzQzMzQ3.YkPxJw.Gi96V7GR7iWgx7LyPiIojm_cD7Y',
-'botname' : 'GTbot',
-'id' : 958605727570743347,
-'prefix' : "GT"
+'token' : '',
+'botname' : '',
+'id' : "id",
+'prefix' : "PREFIX"
 }
 
 bot = commands.Bot(command_prefix = settings['prefix'],intents = discord.Intents.all())
